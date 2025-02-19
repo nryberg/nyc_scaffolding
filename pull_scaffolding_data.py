@@ -5,7 +5,7 @@ import requests
 import json
 import pandas as pd
 # Set the URL for the API endpoint
-url = 'https://data.cityofnewyork.us/resource/kiqr-y92a.json'
+url = 'https://data.cityofnewyork.us/resource/kiqr-y92a.json&$count=true'
 # Send a GET request to the API endpoint
 response = requests.get(url)
 # Parse the JSON response
